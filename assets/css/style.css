@@ -1,0 +1,901 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Lora", serif;
+  max-width: 1440px;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+.haeding_padding {
+  padding-left: 85px;
+  padding-right: 85px;
+}
+
+.common_padding {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.main_nav {
+  width: 100%;
+  height: 185px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  color: black;
+}
+
+.nav_links ul {
+  display: flex;
+  font-size: 13px;
+  gap: 30px;
+}
+
+.nav_links ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav_links ul li {
+  list-style-type: none;
+  /* margin-left: 40px; */
+}
+/* heding part end */
+/* banner part starts */
+.banner {
+  width: 100%;
+  height: 550px;
+  background-image: url(../images/hearing-loss-disability-768x480.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner_text {
+  width: 50%;
+  margin-top: 177px;
+}
+
+.banner_text p {
+  font-family: "Lora", serif;
+  font-style: italic;
+}
+
+.banner_text h1 {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 63px;
+  line-height: 82 px;
+  color: #ffffff;
+}
+
+.banner_text a {
+  font-size: 20px;
+  font-family: "NunitoSans", serif;
+  font-weight: 400;
+  padding: 10px 20px;
+  background-color: #385777;
+  text-decoration: none;
+  color: white;
+  border-radius: 40px;
+  line-height: 80px;
+}
+
+/* banner part end */
+/* dicover part starts */
+.discover_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.discover_content h2 {
+  font-size: 40px;
+  font-family: "Lora", serif;
+  font-weight: 600;
+  width: 30%;
+}
+
+.discover_content a {
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Lora", serif;
+  font-weight: 600;
+  color: #cc302b;
+}
+
+/* Book List */
+.book_list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: -10px;
+}
+
+.book {
+  background: #ffffff;
+  padding: 0px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.book img {
+  width: 100%;
+  height: 420px;
+  object-fit: contain;
+  background-color: transparent;
+  display: block;
+  padding: 0;
+  margin: 0;
+  margin-bottom: -10px;
+}
+
+.book p {
+  font-family: "Lora", serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.book h3 {
+  font-size: 19px;
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.book span {
+  color: #c04a3a;
+  font-weight: bold;
+}
+
+/* dicover part ends */
+/* browse parts starta */
+.browse_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.browse_content h2 {
+  font-size: 40px;
+  font-family: "Lora", serif;
+  font-weight: 600;
+  width: 25%;
+}
+
+.browse_content a {
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Lora", serif;
+  font-weight: 600;
+  color: #cc302b;
+}
+
+/* browse box */
+.browse_container {
+  display: flex;
+  position: relative;
+}
+
+.left_arrow {
+  position: absolute;
+  bottom: 85px;
+  border: 1px solid white;
+  background-color: #fdfcfb;
+  padding: 15px;
+  width: 55px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.right_arrow {
+  position: absolute;
+  right: -15px;
+  bottom: 85px;
+  border: 1px solid white;
+  background-color: #fdfcfb;
+  padding: 15px;
+  width: 55px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.left_arrow,
+.right_arrow i {
+  font-size: 20px;
+}
+
+.browse_box h2 {
+  text-align: center;
+  position: absolute;
+  top: 130px;
+  margin-left: 56px;
+}
+
+.browse_box {
+  margin-left: -10px;
+}
+
+.browse_box img {
+  width: 225px;
+  height: 190px;
+}
+/* browse parts end */
+
+/* spaicial book */
+.special_book {
+  display: flex;
+
+  /* align-items: center; */
+}
+
+.sp_col {
+  background-color: #eedfcc;
+}
+
+.book_img {
+  width: 50%;
+}
+
+.book_des {
+  width: 50%;
+  margin-top: 5px;
+}
+
+.book_des h4 {
+  font-size: 20px;
+  color: #cc302b;
+  margin-bottom: 25px;
+}
+
+.book_des h1 {
+  font-size: 50px;
+  font-weight: 700;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.book_des h3 {
+  font-size: 25px;
+  font-style: italic;
+  color: #484c53;
+  margin-bottom: 35px;
+}
+
+.book_des p {
+  color: #484c53;
+  margin-bottom: 25px;
+  line-height: 35px;
+}
+
+.book_des h2 {
+  font-family: "Nunito Sans", serif;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.book_des h2 span {
+  color: #cc302b;
+}
+
+.book_des button {
+  padding: 20px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border-radius: 40px;
+  background-color: #385777;
+  border: none;
+}
+
+/* spaicial book nd */
+/* authors starts */
+.authors_main {
+  padding: 20px;
+  padding-bottom: 65px;
+}
+
+.au_col {
+  background-color: #6e7780;
+}
+
+.author_conatent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+  margin-top: 35px;
+  color: white;
+}
+
+.au1 h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  /* color: white; */
+}
+
+.au1 p {
+  font-size: 20px;
+  font-family: "Nunito Sans", serif;
+  width: 60%;
+}
+
+.au2 a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+
+.authors {
+  display: flex;
+  justify-content: space-around;
+  gap: 17px;
+  margin-left: -20px;
+}
+
+.author {
+  text-align: center;
+  margin: 10px;
+}
+
+.author p {
+  font-size: 25px;
+  font-style: italic;
+  color: white;
+}
+
+.author img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+}
+
+/* .full-list {
+  margin-top: 20px;
+} */
+/* authors end */
+/* newsletter section starts */
+.news_col {
+  background-color: #5b9894;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.newsletter {
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newsletter h2 {
+  flex: 1;
+  font-size: 41px;
+  font-weight: 400;
+  margin: 0;
+  text-align: left;
+}
+
+.subscribe-form {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  max-width: 500px;
+  background: white;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.subscribe-form input {
+  padding: 12px;
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1em;
+}
+
+.subscribe-form button {
+  padding: 14px 35px;
+  background: #4a4a4a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 50px;
+}
+
+.subscribe-form button:hover {
+  background: #3a3a3a;
+}
+/* newsletter section end */
+/* blog & books starts */
+.blog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.blog h2 {
+  font-size: 30px;
+  font-family: "Lora", serif;
+  font-weight: 600;
+  width: 25%;
+  text-align: start;
+}
+
+.blog span a {
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Lora", serif;
+  font-weight: 600;
+  color: #cc302b;
+}
+
+.blog-section,
+.books-section {
+  padding: 20px;
+  text-align: center;
+}
+.fresh {
+  color: red;
+  font-weight: bold;
+}
+.blog-container {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 20px; */
+  margin-top: 20px;
+}
+.blog-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  width: 400px;
+  text-align: center;
+}
+.blog-card img {
+  width: 100%;
+  height: 350px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.blog-card p {
+  font-size: 15px;
+  font-weight: bold;
+}
+/* blog css ends */
+
+/* book css starts */
+.book_cc {
+  background-color: #d9dbcd;
+  height: 80vh;
+}
+.books {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.books h2 {
+  font-size: 30px;
+  font-family: "Lora", serif;
+  font-weight: 600;
+  width: 20%;
+  text-align: start;
+}
+
+.books span {
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Lora", serif;
+  font-weight: 600;
+  color: #cc302b;
+}
+
+.books-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.book-card {
+  background-color: white;
+  padding: 35px;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  font-size: 30px;
+  text-align: start;
+  padding-top: 45px;
+}
+.book-card a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  margin-top: 35px;
+}
+.green {
+  background-color: #568678;
+  color: white;
+}
+.red {
+  background-color: #dc5a36;
+  color: white;
+}
+.blue {
+  background-color: #385776;
+  color: white;
+}
+.purple {
+  background-color: #797ea4;
+  color: white;
+}
+.book-card a {
+  font-size: 20px;
+  font-family: "Lora", serif;
+  font-style: italic;
+  /* background-color: rgba(255, 255, 255, 0.2); */
+}
+/* blog  &books end */
+/* footre css */
+.footer {
+  width: 100%;
+  background-color: #fff;
+  font-size: 20px;
+  font-family: "NunitoSans", serif;
+  color: #333;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 100px; 
+}
+
+.footer-info,
+.footer-contact {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.footer-logo {
+  margin-top: 10%;
+}
+
+.footer-contact a {
+  color: red;
+  text-decoration: none;
+}
+
+.footer-logo h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-logo h2 span {
+  color: red;
+}
+
+.footer-logo p {
+  font-size: 12px;
+  color: gray;
+}
+
+hr {
+  width: 90%;
+  margin: 20px auto;
+  border: 0.5px solid #ddd;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  font-family: "NunitoSans", serif;
+}
+
+.footer-bottom a {
+  color: red;
+  text-decoration: none;
+}
+
+.footer-bottom p {
+  font-size: 15px;
+}
+
+.footer-nav {
+  margin-top: 15px;
+}
+
+.footer-nav a {
+  font-size: 10px;
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+/* footre css end */
+/* resposive starts */
+/* @media screen and (max-width: 1199px) {
+  .container {
+    max-width: 1100px;
+  }
+
+  .haeding_padding {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .main_nav {
+    padding: 0 20px;
+  }
+
+  .nav_links ul {
+    gap: 20px;
+  }
+
+  .banner_text {
+    width: 60%;
+  }
+
+  .book_list {
+    gap: 15px;
+  }
+
+  .browse_box img {
+    width: 200px;
+    height: 170px;
+  }
+
+  .browse_box h2 {
+    margin-left: 45px;
+  }
+
+  .book_des h1 {
+    font-size: 45px;
+  }
+
+  .authors {
+    gap: 10px;
+  }
+
+  .author img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .newsletter h2 {
+    font-size: 35px;
+  }
+
+  .blog-card {
+    width: 350px;
+  }
+
+  .book-card {
+    width: 280px;
+    padding: 30px;
+  }
+
+  .footer-container {
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 900px;
+  }
+
+  .haeding_padding {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .main_nav {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .nav_links ul {
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .banner_text {
+    width: 70%;
+  }
+
+  .book_list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .book {
+    width: 45%;
+  }
+
+  .browse_box img {
+    width: 170px;
+    height: 140px;
+  }
+
+  .browse_box h2 {
+    margin-left: 35px;
+    font-size: 18px;
+  }
+
+  .book_des {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .book_img {
+    width: 100%;
+  }
+
+  .book_des {
+    width: 100%;
+  }
+
+  .authors {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .author {
+    width: 45%;
+  }
+
+  .newsletter {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .blog-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .blog-card {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  .books-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .book-card {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .footer-info,
+  .footer-contact {
+    margin-top: 20px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .haeding_padding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .banner_text {
+    width: 80%;
+  }
+
+  .book {
+    width: 90%;
+  }
+
+  .browse_box img {
+    width: 140px;
+    height: 110px;
+  }
+
+  .browse_box h2 {
+    margin-left: 25px;
+    font-size: 16px;
+  }
+
+  .left_arrow,
+  .right_arrow {
+    bottom: 50px;
+  }
+
+  .author {
+    width: 90%;
+  }
+
+  .blog-card {
+    width: 90%;
+  }
+
+  .book-card {
+    width: 90%;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-nav a {
+    margin: 5px 0;
+  }
+} */
+
+/* resposive end */
